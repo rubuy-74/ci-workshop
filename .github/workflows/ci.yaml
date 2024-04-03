@@ -1,6 +1,7 @@
 name: 'Check for static errors'
 
 on:
+  pull_request:
   push:
     branches:
       - main
